@@ -1,4 +1,4 @@
-alert ('Processing');
+alert ('Stop');
 
 var url = 'https://newsapi.org/v2/top-headlines?' +
           'sources=bbc-news&' +
@@ -9,6 +9,6 @@ fetch(req)
         console.log(response.json());
     })
 
-const test = document.getElementById('response');
+const test = document.getElementById('test');
 
 test.innerHTML = "Tested";
