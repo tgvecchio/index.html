@@ -9,6 +9,6 @@ fetch(req)
         console.log(response.json());
     })
 
-const test = document.getElementById('test');
-
-test.innerHTML = "Tested";
+var restest = document.getElementById('test');
+message = response
+restest.innerHTML = message;
