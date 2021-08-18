@@ -1,4 +1,4 @@
-alert ('Stop');
+alert ('Stop there');
 
 var url = 'https://newsapi.org/v2/top-headlines?' +
           'sources=bbc-news&' +
