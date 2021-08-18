@@ -8,3 +8,7 @@ fetch(req)
     .then(function(response) {
         console.log(response.json());
     })
+
+const test = document.getElementById('response');
+
+test.innerHTML = "Tested";
