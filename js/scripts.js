@@ -9,9 +9,9 @@ fetch(req)
         console.log(response.json());
     })
 
-!const restest = document.getElementById('test');
+const restest = document.getElementById('test');
 !message = response
-!restest.innerHTML = message;
+restest.innerHTML = 'XX';
 
 const myHeading = document.querySelector('h1');
 
