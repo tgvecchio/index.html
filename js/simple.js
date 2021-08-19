@@ -9,4 +9,4 @@ fetch(req)
         console.log(response.json());
     })
 
-myHeading.textContent = req;
+myHeading.textContent = 'Zimple';
