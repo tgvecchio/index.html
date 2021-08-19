@@ -13,6 +13,6 @@ fetch(req)
 !message = response
 !restest.innerHTML = message;
 
-const myHeading = document.querySelector('h ;
+const myHeading = document.querySelector('h1');
 
 myHeading.textContent = 'XXX';
