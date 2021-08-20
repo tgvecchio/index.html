@@ -1,6 +1,6 @@
 alert ('Stop there');
 
-var url = 'https://newsapi.org/v2/top-headlines?' +
+var url = 'https://api.allorigins.win/https://newsapi.org/v2/top-headlines?' +
           'sources=bbc-news&' +
           'apiKey=f5f7ae594ad34dadbe4c0557dc6ed08d';
 var req = new Request(url);
